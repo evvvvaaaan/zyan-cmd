@@ -1,10 +1,10 @@
-## 🔧 Moderation
+# 🔧 Moderation
 
 **Description:**
 
-Moderation commands allow server administrators and moderators to manage members and maintain order in the server. These commands include actions such as banning, kicking, muting, warning users, managing roles, clearing messages, and controlling member permissions.
+__Moderation commands allow server administrators and moderators to manage members and maintain order in the server. These commands include actions such as banning, kicking, muting, warning users, managing roles, clearing messages, and controlling member permissions.__
 
-moderation:
+### moderation:
 - alert
 - ban-info
 - ban
@@ -43,13 +43,13 @@ moderation:
 - warn-info
 - unwarn
 
-## 🛡 Security
+# 🛡 Security
 
 **Description:**
 
-Security commands protect the server from raids, abuse, and malicious activities. They include anti-raid systems, anti-ban protection, link filtering, bot protection, webhook security, permission monitoring, and advanced automod features to keep the community safe.
+__Security commands protect the server from raids, abuse, and malicious activities. They include anti-raid systems, anti-ban protection, link filtering, bot protection, webhook security, permission monitoring, and advanced automod features to keep the community safe.__
 
-security:
+### security:
 - abuse-whitelist: إضافة كلمات للقائمة البيضاء
 - abuse-blacklist: إزالة كلمات من القائمة البيضاء
 - anti-abuse: تفعيل/تعطيل فلتر الإساءة
@@ -100,14 +100,14 @@ security:
 - unlock-vip: فتح ميزات VIP
 
 
-## ✅ Verification
+# ✅ Verification
 
 **Description:**
 
-Verification commands manage the member verification system. They help assign roles after verification, track invites, manage verification logs, detect suspicious users, and control verification channels to ensure that only legitimate members join the server.
+__Verification commands manage the member verification system. They help assign roles after verification, track invites, manage verification logs, detect suspicious users, and control verification channels to ensure that only legitimate members join the server.__
 
 
-verification:
+### verification:
 - autorole: تفعيل الرتبة التلقائية
 - resetrole: إعادة تعيين الرتب
 - generate-invite: إنشاء رابط دعوة
@@ -133,13 +133,13 @@ verification:
 - vg: تحقق بنت
 
 
-## 🔊 Temp Voice
+# 🔊 Temp Voice
 
 **Description:**
 
-Temp Voice commands manage temporary voice channels for users. They allow the bot to automatically create voice rooms when members join specific channels and remove them when they become empty.
+__Temp Voice commands manage temporary voice channels for users. They allow the bot to automatically create voice rooms when members join specific channels and remove them when they become empty.__
 
-tempvoice:
+### tempvoice:
 - set-vc-channel-verif: تعيين قناة صوتية للتحقق
 - set-vc-channel-jail: تعيين قناة صوتية للسجن
 - set-vc-channel-help: تعيين قناة صوتية للمساعدة
@@ -151,7 +151,7 @@ tempvoice:
 - set-help-notif-roles: تعيين رتب إشعارات المساعدة
 - reset-temp-logs: إعادة تعيين سجلات القنوات المؤقتة
 
-tempvoice:
+### tempvoice:
 - reset-temp-logs
 - set-help-notif-roles
 - set-jail-notif-roles
@@ -162,13 +162,13 @@ tempvoice:
 - set-vc-channel-verif
 - set-verif-roles
 
-## 👋 Welcome
+# 👋 Welcome
 
 **Description:**
 
-Welcome commands control the server’s greeting system. They manage welcome messages, boost notifications, member join tags, and automatic nickname resets for new members.
+__Welcome commands control the server’s greeting system. They manage welcome messages, boost notifications, member join tags, and automatic nickname resets for new members.__
 
-welcome:
+### welcome:
 - set-boost-channel
 - set-welcome-channel
 - set-welcome-message
@@ -177,14 +177,14 @@ welcome:
 - check-all-tag
 - resetallnick
 
-## 📜 Logs
+# 📜 Logs
 
 **Description:**
 
-Logging commands record important server activities such as bans, kicks, mutes, warnings, message deletions, and role changes. These logs help administrators monitor and review server actions.
+__Logging commands record important server activities such as bans, kicks, mutes, warnings, message deletions, and role changes. These logs help administrators monitor and review server actions.__
 
 
-setlogs:
+### setlogs:
 - set-alert-log
 - set-alert-message-log
 - set-ban-unban-log
@@ -196,14 +196,14 @@ setlogs:
 - set-timeout-log
 - set-warn-unwarn-log
 
-## 💎 Premium
+# 💎 Premium
 
 **Description:**
 
-Premium commands manage special features available for premium users or servers. They allow administrators to create premium roles, manage premium categories, and track premium activity logs.
+__Premium commands manage special features available for premium users or servers. They allow administrators to create premium roles, manage premium categories, and track premium activity logs.__
 
 
-premium:
+### premium:
 - create-premium
 - delete-premium
 - pr-role
